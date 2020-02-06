@@ -1,7 +1,7 @@
 <h1>keytools commands</h1>
 
 > Note: (In case you don't have keytools, go to /usr/java/server-jdk/jre/bin/keytool or use ps aux |grep java to see where java is installed)
-<h4View the content of the certificate</h4>
+<h4>View the content of the certificate</h4>
 
 ```keytool -printcert -v -file certificate.crt```
 
