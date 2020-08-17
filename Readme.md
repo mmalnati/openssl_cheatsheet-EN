@@ -13,7 +13,7 @@
 
 ```keytool -list -v -keystore keystore.jks -alias alias_certificate```
 
-<h4>Add a certificate into a keystore</h4>
+<h4>Add a certificate into a keystore</h4> 
 
 ```keytool -import -trustcacerts -file certificate.crt -alias alias-cert -keystore keystore.jks```
 
